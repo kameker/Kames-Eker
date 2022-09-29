@@ -14,5 +14,10 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/ahahah')
+def ahahah():
+    return render_template('ahahah.html')
+
+
 if __name__ == '__main__':
     main()
