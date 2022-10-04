@@ -18,6 +18,10 @@ def index():
 def ahahah():
     return render_template('ahahah.html')
 
+@app.route('/2')
+def f2():
+    return render_template('ahahah.html')
+
 
 if __name__ == '__main__':
     main()
